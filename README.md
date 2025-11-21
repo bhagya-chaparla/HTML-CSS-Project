@@ -1,6 +1,4 @@
 # HTML-CSS-Project
-# Launch – HTML & CSS Project
-
 This project is a fully responsive landing page built using **HTML** and **CSS**.  
 It is a recreation of the *Launch* template from Colorlib and was created as part of my frontend development learning journey.
 

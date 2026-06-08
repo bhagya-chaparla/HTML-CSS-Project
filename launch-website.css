@@ -768,3 +768,731 @@ footer {
 .redlove {
     color: #db3545;
 }
+
+/* Responsive Design for Tablets and Mobile Devices */
+@media screen and (max-width: 1200px) {
+    nav {
+        padding: 5px 50px;
+    }
+    
+    #launch-data {
+        padding: 50px 50px;
+    }
+    
+    #digital-services {
+        padding: 50px 50px;
+    }
+    
+    #advantages {
+        padding: 50px 50px;
+    }
+    
+    #features {
+        padding: 50px 50px;
+    }
+    
+    #pricing-types {
+        padding: 5px 100px;
+    }
+    
+    #pricing-2nd-section {
+        padding: 50px 50px;
+    }
+    
+    #about-us {
+        padding: 50px 50px;
+    }
+    
+    #our-news {
+        padding: 50px 50px;
+    }
+    
+    #advantages-of-using-our-product {
+        padding: 50px 50px;
+    }
+    
+    #main11 {
+        margin: 70px 60px 150px 60px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    nav {
+        padding: 5px 30px;
+    }
+    
+    nav ul {
+        gap: 20px;
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+    
+    #options {
+        margin-left: 50px;
+        font-size: 13px;
+    }
+    
+    #launch-data {
+        padding: 50px 30px;
+    }
+    
+    #promote-your-products h1 {
+        font-size: 48px;
+    }
+    
+    #digital-services {
+        padding: 50px 30px;
+    }
+    
+    #maindashbord-video {
+        width: 450px;
+    }
+    
+    #advantages {
+        padding: 50px 30px;
+    }
+    
+    #advantages img {
+        width: 450px;
+    }
+    
+    #features {
+        padding: 50px 30px;
+    }
+    
+    #pricing-types {
+        padding: 5px 80px;
+    }
+    
+    .price-details {
+        width: 24%;
+    }
+    
+    #pricing-2nd-section {
+        padding: 50px 30px;
+    }
+    
+    #about-us {
+        padding: 50px 30px;
+    }
+    
+    #about-us img {
+        width: 600px;
+    }
+    
+    #our-news {
+        padding: 50px 30px;
+    }
+    
+    #advantages-of-using-our-product {
+        padding: 50px 30px;
+    }
+    
+    #main11 {
+        margin: 70px 40px 150px 40px;
+        column-gap: 30px;
+    }
+    
+    #About-Launch {
+        width: 30%;
+    }
+    
+    .projects-sub {
+        flex: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 8px 15px;
+        flex-wrap: wrap;
+    }
+    
+    nav ul {
+        gap: 15px;
+        padding: 10px 15px;
+        font-size: 12px;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    #nav-bar {
+        flex-direction: column;
+    }
+    
+    #options {
+        margin-left: 0;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    
+    #launch-data {
+        padding: 80px 20px 50px 20px;
+        flex-direction: column;
+    }
+    
+    #promote-your-products {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #promote-your-products h1 {
+        font-size: 36px;
+    }
+    
+    #promote-image {
+        width: 100%;
+        position: static;
+        top: auto;
+        right: auto;
+    }
+    
+    #promote-image img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #digital-services {
+        padding: 40px 20px;
+        flex-direction: column;
+    }
+    
+    #digital-services-data {
+        width: 100%;
+        padding-right: 0;
+    }
+    
+    #selling-digital-services {
+        font-size: 32px;
+    }
+    
+    #maindashbord-video {
+        width: 100%;
+    }
+    
+    #advantages {
+        padding: 40px 20px;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    
+    #advantages img {
+        width: 100%;
+    }
+    
+    #features {
+        padding: 40px 20px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .grow-your-business2 {
+        flex: 1 1 calc(50% - 10px);
+        min-width: 200px;
+    }
+    
+    #pricing-section h1 {
+        font-size: 32px;
+    }
+    
+    #pricing-types {
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .price-details {
+        width: 40%;
+        min-width: 200px;
+        padding: 25px 20px;
+        height: auto;
+    }
+    
+    #pricing-2nd-section {
+        padding: 40px 20px;
+        gap: 40px;
+        flex-direction: column;
+    }
+    
+    #about-us {
+        padding: 40px 20px;
+        flex-direction: column;
+    }
+    
+    #about-us img {
+        width: 100%;
+    }
+    
+    #memebers-team {
+        gap: 50px;
+    }
+    
+    #our-news {
+        padding: 40px 20px;
+        flex-wrap: wrap;
+    }
+    
+    .news-posted h1 {
+        font-size: 24px;
+    }
+    
+    #advantages-of-using-our-product {
+        padding: 40px 20px;
+    }
+    
+    #advatages-data h1 {
+        font-size: 32px;
+    }
+    
+    #grow-build {
+        flex-direction: column;
+    }
+    
+    #success-bring {
+        flex-direction: column;
+    }
+    
+    #main10-total {
+        flex-direction: column;
+        column-gap: 0;
+    }
+    
+    #main10 {
+        margin: 30px 20px;
+    }
+    
+    #Contact-Info {
+        margin-left: 0;
+    }
+    
+    #main11 {
+        margin: 70px 20px 150px 20px;
+        column-gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    #About-Launch {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .projects-sub {
+        flex: 1 1 calc(50% - 10px);
+        min-width: 150px;
+        padding: 15px;
+    }
+    
+    .icon11 {
+        padding: 6px;
+        font-size: 18px;
+    }
+}
+
+/* Mobile phones and small devices */
+@media screen and (max-width: 600px) {
+    nav {
+        padding: 8px 10px;
+    }
+    
+    nav ul {
+        gap: 10px;
+        padding: 8px 10px;
+        font-size: 11px;
+    }
+    
+    #options {
+        font-size: 11px;
+    }
+    
+    #sigin, #register {
+        padding: 6px 15px;
+        font-size: 11px;
+    }
+    
+    #launch-data {
+        padding: 70px 15px 40px 15px;
+    }
+    
+    #promote-your-products h1 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+    
+    #promote-your-products p {
+        font-size: 13px;
+    }
+    
+    #see-features, #pricing {
+        padding: 10px 20px;
+        font-size: 11px;
+        margin-bottom: 8px;
+    }
+    
+    #pricing {
+        margin-left: 5px;
+    }
+    
+    #digital-services {
+        padding: 30px 15px;
+    }
+    
+    #selling-digital-services {
+        font-size: 24px;
+    }
+    
+    #maindashbord-video {
+        width: 100%;
+        padding: 5px;
+    }
+    
+    #advantages {
+        padding: 30px 15px;
+    }
+    
+    #advantages img {
+        width: 100%;
+    }
+    
+    #features {
+        padding: 30px 15px;
+    }
+    
+    .grow-your-business2 {
+        flex: 1 1 100%;
+    }
+    
+    #pricing-section h1 {
+        font-size: 26px;
+        margin: 15px 10px;
+    }
+    
+    #data {
+        font-size: 13px;
+    }
+    
+    #pricing-types {
+        padding: 15px 10px;
+        gap: 15px;
+    }
+    
+    .price-details {
+        width: 100%;
+        padding: 20px 15px;
+        border-radius: 25px;
+        height: auto;
+    }
+    
+    .price-details h2 {
+        font-size: 20px;
+    }
+    
+    .price-details h1 {
+        font-size: 24px;
+    }
+    
+    .ul-list p {
+        font-size: 12px;
+    }
+    
+    #pricing-2nd-section {
+        padding: 30px 15px;
+        gap: 20px;
+    }
+    
+    #about-us {
+        padding: 30px 15px;
+    }
+    
+    #about-us img {
+        width: 100%;
+    }
+    
+    #memebers-team {
+        gap: 50px;
+    }
+    
+    #our-news {
+        padding: 30px 15px;
+    }
+    
+    .news-posted h1 {
+        font-size: 20px;
+    }
+    
+    #advantages-of-using-our-product {
+        padding: 30px 15px;
+    }
+    
+    #advatages-data h1 {
+        font-size: 26px;
+    }
+    
+    .different-advantages {
+        font-size: 16px;
+    }
+    
+    .paragraph {
+        font-size: 12px;
+    }
+    
+    #main10 {
+        margin: 20px 15px;
+    }
+    
+    #Contact-Info {
+        font-size: 18px;
+    }
+    
+    #main11 {
+        margin: 50px 15px 100px 15px;
+    }
+    
+    #Copyright {
+        font-size: 12px;
+        padding-bottom: 50px;
+    }
+    
+    hr {
+        width: 100%;
+    }
+    
+    #main11 {
+        margin: 50px 15px 100px 15px;
+        flex-direction: column;
+        column-gap: 0;
+    }
+    
+    #About-Launch {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    #Far-far-away {
+        margin: 30px 0px 30px 0px;
+    }
+    
+    .projects-sub {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .projects-sub ul {
+        line-height: 1.6;
+        font-size: 12px;
+    }
+    
+    .projects-sub p {
+        margin-bottom: 15px;
+        font-weight: 500;
+    }
+    
+    .icon11 {
+        padding: 6px;
+        font-size: 16px;
+        margin-right: 5px;
+    }
+    
+    #Copyright {
+        font-size: 11px;
+        padding: 30px 15px;
+        margin-top: 20px;
+    }
+}
+
+/* Extra small devices */
+@media screen and (max-width: 380px) {
+    nav {
+        padding: 6px 8px;
+    }
+    
+    nav ul {
+        gap: 8px;
+        padding: 6px 8px;
+        font-size: 10px;
+    }
+    
+    #options {
+        font-size: 10px;
+    }
+    
+    #sigin, #register {
+        padding: 5px 12px;
+        font-size: 10px;
+    }
+    
+    #launch-data {
+        padding: 65px 10px 30px 10px;
+    }
+    
+    #promote-your-products h1 {
+        font-size: 22px;
+    }
+    
+    #see-features, #pricing {
+        padding: 8px 15px;
+        font-size: 10px;
+    }
+    
+    #digital-services {
+        padding: 25px 10px;
+    }
+    
+    #selling-digital-services {
+        font-size: 20px;
+    }
+    
+    #pricing-section h1 {
+        font-size: 22px;
+        margin: 12px 8px;
+    }
+    
+    #pricing-types {
+        padding: 12px 8px;
+    }
+    
+    .price-details {
+        padding: 18px 12px;
+        border-radius: 18px;
+    }
+    
+    .price-details h2 {
+        font-size: 18px;
+    }
+    
+    .price-details h1 {
+        font-size: 22px;
+    }
+    
+    #advatages-data h1 {
+        font-size: 22px;
+    }
+    
+    .different-advantages {
+        font-size: 14px;
+    }
+    
+    .paragraph {
+        font-size: 11px;
+    }
+    
+    #main10 {
+        margin: 15px 10px;
+    }
+    
+    #main11 {
+        margin: 40px 10px 80px 10px;
+        flex-direction: column;
+    }
+    
+    #About-Launch {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    #Far-far-away {
+        margin: 20px 0px 20px 0px;
+        font-size: 12px;
+    }
+    
+    .projects-sub {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 10px 0;
+        text-align: center;
+    }
+    
+    .projects-sub p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    .projects-sub ul {
+        font-size: 11px;
+        line-height: 1.5;
+    }
+    
+    .icon11 {
+        padding: 5px;
+        font-size: 14px;
+        margin-right: 3px;
+    }
+    
+    #Copyright {
+        font-size: 10px;
+        padding: 20px 10px;
+        margin-top: 15px;
+    }
+}
+
+/* Hamburger Menu Styling */
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #290029;
+    z-index: 1001;
+}
+
+#nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#nav-menu ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    padding: 10px 40px;
+    font-size: 15px;
+}
+
+/* Mobile hamburger menu */
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+    
+    #nav-menu {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        flex-direction: column;
+        gap: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+        align-items: flex-start;
+        border-bottom: 1px solid #e8e8e8;
+    }
+    
+    #nav-menu.active {
+        max-height: 500px;
+    }
+    
+    #nav-menu ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px 20px;
+        width: 100%;
+        font-size: 12px;
+    }
+    
+    #nav-menu #options {
+        width: 100%;
+        padding: 10px 20px;
+        margin: 0;
+        margin-left: 0;
+        display: flex;
+        gap: 10px;
+        border-top: 1px solid #e8e8e8;
+    }
+    
+    #nav-bar {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+}

@@ -1,6 +1,8 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Launch Free HTML Template</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -18,7 +20,10 @@
             <div>
                 <h2>Launch<span>.</span></h2>
             </div>
-            <div>
+            <div id="menu-toggle" class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div id="nav-menu">
                 <ul>
                     <li><a href="#launch-data" id="home">Home</a></li>
                     <div id="nav-bar">
@@ -43,10 +48,10 @@
                         <li class="navbar"><a href="#contact-us">Contact</a></li>
                     </div>
                 </ul>
-            </div>
-            <div id="options">
-                <a id="sigin">Sig in</a>
-                <a id="register">Register</a>
+                <div id="options">
+                    <a id="sigin">Sign in</a>
+                    <a id="register">Register</a>
+                </div>
             </div>
         </nav>
         <div id="launch-data">
@@ -57,9 +62,6 @@
                     Bookmarksgrove right at the coast</p>
                 <a id="see-features"> SEE FEATURES</a>
                 <a id="pricing">PRICING</a>
-            </div>
-            <div id="dots-image">
-                <img src="https://preview.colorlib.com/theme/launch/images/dots.png.webp">
             </div>
             <div id="promote-image">
                 <img src="https://preview.colorlib.com/theme/launch/images/market-launch-pana.svg">
@@ -89,7 +91,7 @@
             </div>
             <div>
                 <a href="https://www.youtube.com/watch?v=mwtbEGNABWU&t=9s">
-                    <img src="https://preview.colorlib.com/theme/launch/images/dashboard.jpg.webp"
+                    <img src="https://preview.colorlib.com/theme/launch/images/dashboard.avif"
                         id="maindashbord-video">
                 </a>
             </div>
@@ -517,6 +519,24 @@
                     class="fa-solid fa-heart redlove"></i></span> by <span class="dot1">Colorlib</span></p>
     </footer>
     </section>
+    
+    <script>
+        // Hamburger menu toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const navMenu = document.getElementById('nav-menu');
+        
+        menuToggle.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when a link is clicked
+        const navLinks = navMenu.querySelectorAll('a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
 </body>
 
 </html>
